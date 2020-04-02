@@ -5,32 +5,34 @@ import { render } from '@testing-library/react';
 
 class App extends Component {
 
-  
-  render(){
+
+  render() {
     return (
       <div className="App">
 
-          
+
 
         <section className={"mainComponent"}>
-            <header>
-              <div className={"startBootstrap"}>Start Bootstrap</div>
+          <header>
+            <div className={"startBootstrap"}>Start Bootstrap</div>
 
-              <nav>
-                  <ul>
-                    <li>SERVICES</li>
-                    <li>PORTFOLIO</li>
-                    <li>ABOUT</li>
-                    <li>TEAM</li>
-                    <li>CONTACT</li>
-                  </ul>
-              </nav>
-              
-            </header>
+            <nav>
+              <ul>
+                <li>SERVICES</li>
+                <li>PORTFOLIO</li>
+                <li>ABOUT</li>
+                <li>TEAM</li>
+                <li>CONTACT</li>
+              </ul>
+            </nav>
 
-            <h2>Welcome To Our Studio!</h2>
-            <h1>IT'S NICE TO MEET YOU</h1>
+          </header>
+
+          <div className="content1">
+            <h2 className="secondaryTitle">Welcome To Our Studio!</h2>
+            <h1 className="mainTitle">IT'S NICE TO MEET YOU</h1>
             <button>TELL ME MORE</button>
+          </div>
 
 
         </section>
@@ -63,12 +65,12 @@ export default App;
 
 
 //   render(){
-  
+
 //     return(
 //       <div>
-        
-      
-  
+
+
+
 //   {/* are these supposed to be more of a file path format? */}
 //           <MainComponent />
 //           <Services />
@@ -76,8 +78,8 @@ export default App;
 //           <About />
 //           <Team />
 //           <Contact />
-  
-  
+
+
 //       </div>
 //     )
 //   }

@@ -11,6 +11,8 @@
 
   height: 55vh;
 
+  background-size: cover;
+
 }
 
 button{
@@ -51,6 +53,31 @@ li{
   margin: 0px 10px;
 }
 
-ul:hover {
+li:hover {
   color: goldenrod;
+}
+
+.content1{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+  /* align-content: center; */
+  
+  color: #ffffff;
+
+  padding-top: 60px;
+    
+}
+
+.mainTitle{
+  line-height: 50px;
+  font-weight: 900;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+.secondaryTitle{
+  font-weight: 530;
 }
