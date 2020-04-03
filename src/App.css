@@ -81,3 +81,9 @@ li:hover {
 .secondaryTitle{
   font-weight: 530;
 }
+
+@media (max-width: 600px){
+  .desktop-nav{
+    display: none;
+  }
+}

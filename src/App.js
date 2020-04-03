@@ -3,6 +3,10 @@ import './reset.css'
 import './App.css';
 import { render } from '@testing-library/react';
 
+
+// https://blackrockdigital.github.io/startbootstrap-agency/
+
+//link to website listed above
 class App extends Component {
 
 
@@ -17,7 +21,7 @@ class App extends Component {
             <div className={"startBootstrap"}>Start Bootstrap</div>
 
             <nav>
-              <ul>
+              <ul className="desktop-nav">
                 <li>SERVICES</li>
                 <li>PORTFOLIO</li>
                 <li>ABOUT</li>
